@@ -1083,8 +1083,18 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@intlify/bundle-utils@7.5.1(vue-i18n@9.10.2):
     resolution: {integrity: sha512-UovJl10oBIlmYEcWw+VIHdKY5Uv5sdPG0b/b6bOYxGLln3UwB75+2dlc0F3Fsa0RhoznQ5Rp589/BZpABpE4Xw==}
+=======
+<<<<<<< HEAD
+  /@intlify/bundle-utils@7.5.0(vue-i18n@9.9.1):
+=======
+<<<<<<< HEAD
+  /@intlify/bundle-utils@7.5.0(vue-i18n@9.9.0):
+>>>>>>> 8dbeae7 (chore: update lockfile)
+    resolution: {integrity: sha512-6DymqusddBQ8kVtVBsVFFF7arNfIhuLacOmmsqayT2vl427j9m0VX12mMC+cgoVIodSpRfzYPaPTdPuJq7mK0Q==}
+>>>>>>> 9bbad91 (chore: update lockfile)
     engines: {node: '>= 14.16'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -1183,6 +1193,50 @@ packages:
     engines: {node: '>= 18'}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /@intlify/vue-i18n-bridge@1.1.0(vue-i18n@9.9.0):
+    resolution: {integrity: sha512-yBwGpr70Rc56pjsPdtvNRi/ju0P9h3670EkCOuxAzKKR5OH61uF9LprLUGmph/Uy2TXBO2DKqpnJBFXyXJQKeg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue-i18n: ^8.26.1 || >=9.2.0
+      vue-i18n-bridge: '>=9.2.0'
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue-i18n:
+        optional: true
+      vue-i18n-bridge:
+        optional: true
+    dependencies:
+      vue-i18n: 9.9.0(vue@3.4.5)
+    dev: true
+
+  /@intlify/vue-router-bridge@1.1.0(vue@3.4.5):
+    resolution: {integrity: sha512-EX+KndT9VS3muMdZWFmc99D8nUaWTOXr322a8zNf5HnMCbpbogdifWYW8hat+nVE73St/gcDbPz6u5smVUPoQg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue-router: ^4.0.0-0 || ^3.0.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      vue-demi: 0.14.6(vue@3.4.5)
+    transitivePeerDependencies:
+      - vue
+    dev: true
+
+=======
+>>>>>>> 271a452 (chore: update lockfile)
+>>>>>>> 8dbeae7 (chore: update lockfile)
   /@ioredis/commands@1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
     dev: true
@@ -1266,7 +1320,16 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@miyaneee/rollup-plugin-json5@1.2.0(rollup@4.13.0):
+=======
+<<<<<<< HEAD
+  /@miyaneee/rollup-plugin-json5@1.2.0(rollup@4.9.6):
+=======
+<<<<<<< HEAD
+  /@miyaneee/rollup-plugin-json5@1.2.0(rollup@4.9.4):
+>>>>>>> 8dbeae7 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     resolution: {integrity: sha512-JjTIaXZp9WzhUHpElrqPnl1AzBi/rvRs065F71+aTmlqvTMVkdbjZ8vfFl4nRlgJy+TPBw69ZK4pwFdmOAt4aA==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
@@ -1276,8 +1339,22 @@ packages:
       rollup: 4.13.0
     dev: true
 
+<<<<<<< HEAD
   /@netlify/functions@2.6.0:
     resolution: {integrity: sha512-vU20tij0fb4nRGACqb+5SQvKd50JYyTyEhQetCMHdakcJFzjLDivvRR16u1G2Oy4A7xNAtGJF1uz8reeOtTVcQ==}
+=======
+<<<<<<< HEAD
+  /@netlify/functions@2.5.1:
+    resolution: {integrity: sha512-7//hmiFHXGusAzuzEuXvRT9ItaeRjRs5lRs6lYUkaAXO1jnTWYDB2XdqFq5X4yMRX+/A96nrQ2HwCE+Pd0YMwg==}
+=======
+  /@netlify/functions@2.4.1:
+    resolution: {integrity: sha512-sRFYBaz6dJP1MdUtk/5QNmshhg5UDmB+DUssmH6v9WUG85MrwyExEfGfJA5eClXATjXm0coTvO5nLAlyCpK7QQ==}
+=======
+  /@netlify/functions@2.4.0:
+    resolution: {integrity: sha512-dIqhdj5u4Lu/8qbYwtYpn8NfvIyPHbSTV2lAP4ocL+iwC9As06AXT0wa/xOpO2vRWJa0IMxdZaqCPnkyHlHiyg==}
+>>>>>>> 271a452 (chore: update lockfile)
+>>>>>>> 8dbeae7 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     engines: {node: '>=14.0.0'}
     dependencies:
       '@netlify/serverless-functions-api': 1.14.0
@@ -1629,8 +1706,19 @@ packages:
       - vue-tsc
     dev: true
 
+<<<<<<< HEAD
   /@nuxtjs/i18n@8.2.0(rollup@4.13.0)(vue@3.4.21):
     resolution: {integrity: sha512-t37aF/WOD1g8CA/iCyCJrURXocjPy7diZG+kJcHLkLmJh1v4/2Zhe0AeUsjXubGgvQKLSL3b5w8rZuPkG4yhUw==}
+=======
+<<<<<<< HEAD
+  /@nuxtjs/i18n@8.0.1(rollup@4.9.6)(vue@3.4.15):
+    resolution: {integrity: sha512-h1IBAY/sdGYHEud/HrL28tx632wteggQ1hFWO+XBj/5xBAVfgSYjcaB3bWtB6KNXYktojWOifW0QIis5lfx7UQ==}
+=======
+<<<<<<< HEAD
+  /@nuxtjs/i18n@8.0.0(rollup@4.9.4)(vue@3.4.5):
+    resolution: {integrity: sha512-h436bYKJ9a8NpLoY5kc5QyM6WTsuFU2IGtSErm+iRgWBinguLg/gp0cvgji35WgVlRUAhocYkxOqTSpZiUZyYA==}
+>>>>>>> 8dbeae7 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@intlify/h3': 0.5.0
@@ -1663,8 +1751,20 @@ packages:
       - vue-i18n-bridge
     dev: true
 
+<<<<<<< HEAD
   /@parcel/watcher-android-arm64@2.4.1:
     resolution: {integrity: sha512-LOi/WTbbh3aTn2RYddrO8pnapixAziFl6SMxHM69r3tvdSm94JtCenaKgk1GRg5FJ5wpMCpHeW+7yqPlvZv7kg==}
+=======
+<<<<<<< HEAD
+  /@parcel/watcher-android-arm64@2.4.0:
+    resolution: {integrity: sha512-+fPtO/GsbYX1LJnCYCaDVT3EOBjvSFdQN9Mrzh9zWAOOfvidPWyScTrHIZHHfJBvlHzNA0Gy0U3NXFA/M7PHUA==}
+=======
+=======
+>>>>>>> 271a452 (chore: update lockfile)
+  /@parcel/watcher-android-arm64@2.3.0:
+    resolution: {integrity: sha512-f4o9eA3dgk0XRT3XhB0UWpWpLnKgrh1IwNJKJ7UJek7eTYccQ8LR7XUWFKqw6aEq5KUNlCcGvSzKqSX/vtWVVA==}
+>>>>>>> 8dbeae7 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     engines: {node: '>= 10.0.0'}
     cpu: [arm64]
     os: [android]
@@ -4370,6 +4470,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+<<<<<<< HEAD
   /escodegen@2.1.0:
     resolution: {integrity: sha512-2NlIDTwUWJN0mRPQOdtQBzbUHvdGY2P1VXSyU83Q3xKxM7WHX2Ql8dKq782Q9TgQUNOLEzEYu9bzLNj1q88I5w==}
     engines: {node: '>=6.0'}
@@ -4382,7 +4483,14 @@ packages:
       source-map: 0.6.1
     dev: true
 
+<<<<<<< HEAD
   /eslint-compat-utils@0.1.2(eslint@8.57.0):
+=======
+  /eslint-compat-utils@0.1.2(eslint@8.56.0):
+=======
+  /eslint-compat-utils@0.1.2(eslint@8.54.0):
+>>>>>>> 271a452 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     resolution: {integrity: sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -4821,12 +4929,6 @@ packages:
       acorn: 8.11.3
       acorn-jsx: 5.3.2(acorn@8.11.3)
       eslint-visitor-keys: 3.4.3
-    dev: true
-
-  /esprima@4.0.1:
-    resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
-    engines: {node: '>=4'}
-    hasBin: true
     dev: true
 
   /esquery@1.5.0:
@@ -5613,10 +5715,6 @@ packages:
 
   /is-hexadecimal@1.0.4:
     resolution: {integrity: sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==}
-    dev: true
-
-  /is-https@4.0.0:
-    resolution: {integrity: sha512-FeMLiqf8E5g6SdiVJsPcNZX8k4h2fBs1wp5Bb6uaNxn58ufK1axBqQZdmAQsqh0t9BuwFObybrdVJh6MKyPlyg==}
     dev: true
 
   /is-inside-container@1.0.0:
@@ -8961,8 +9059,21 @@ packages:
       ufo: 1.5.2
     dev: true
 
+<<<<<<< HEAD
   /vue-demi@0.14.7(vue@3.4.21):
+=======
+<<<<<<< HEAD
+  /vue-demi@0.14.7(vue@3.4.15):
+>>>>>>> 9bbad91 (chore: update lockfile)
     resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
+=======
+<<<<<<< HEAD
+  /vue-demi@0.14.6(vue@3.4.5):
+=======
+  /vue-demi@0.14.6(vue@3.3.8):
+>>>>>>> 271a452 (chore: update lockfile)
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+>>>>>>> 8dbeae7 (chore: update lockfile)
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -8998,8 +9109,49 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /vue-i18n@9.10.2(vue@3.4.21):
     resolution: {integrity: sha512-ECJ8RIFd+3c1d3m1pctQ6ywG5Yj8Efy1oYoAKQ9neRdkLbuKLVeW4gaY5HPkD/9ssf1pOnUrmIFjx2/gkGxmEw==}
+=======
+<<<<<<< HEAD
+  /vue-i18n@9.9.1(vue@3.4.15):
+    resolution: {integrity: sha512-xyQ4VspLdNSPTKBFBPWa1tvtj+9HuockZwgFeD2OhxxXuC2CWeNvV4seu2o9+vbQOyQbhAM5Ez56oxUrrnTWdw==}
+=======
+<<<<<<< HEAD
+  /vue-i18n-routing@1.2.0(vue-i18n@9.9.0)(vue@3.4.5):
+    resolution: {integrity: sha512-pn+bIFRMX5BN1BVQJ5rn05dYVnBhU/QnkxhjEJAe9HnYtJhDubetvoY+yfgDNWwesNWfHbbvsilsgSGL6DJyeA==}
+    engines: {node: '>= 14.6'}
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^2.6.14 || ^2.7.0 || ^3.2.0
+      vue-i18n: ^8.26.1 || >=9.2.0
+      vue-i18n-bridge: '>=9.2.0'
+      vue-router: ^3.5.3 || ^3.6.0 || ^4.0.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+      vue-i18n:
+        optional: true
+      vue-i18n-bridge:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      '@intlify/shared': 9.9.0
+      '@intlify/vue-i18n-bridge': 1.1.0(vue-i18n@9.9.0)
+      '@intlify/vue-router-bridge': 1.1.0(vue@3.4.5)
+      ufo: 1.3.2
+      vue: 3.4.5(typescript@5.3.3)
+      vue-demi: 0.14.6(vue@3.4.5)
+      vue-i18n: 9.9.0(vue@3.4.5)
+    dev: true
+
+  /vue-i18n@9.9.0(vue@3.4.5):
+    resolution: {integrity: sha512-xQ5SxszUAqK5n84N+uUyHH/PiQl9xZ24FOxyAaNonmOQgXeN+rD9z/6DStOpOxNFQn4Cgcquot05gZc+CdOujA==}
+>>>>>>> 8dbeae7 (chore: update lockfile)
+>>>>>>> 9bbad91 (chore: update lockfile)
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
@@ -9010,8 +9162,20 @@ packages:
       vue: 3.4.21(typescript@5.4.2)
     dev: true
 
+<<<<<<< HEAD
   /vue-router@4.3.0(vue@3.4.21):
     resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
+=======
+<<<<<<< HEAD
+  /vue-router@4.2.5(vue@3.4.15):
+=======
+  /vue-router@4.2.5(vue@3.4.5):
+=======
+  /vue-router@4.2.5(vue@3.3.8):
+>>>>>>> 271a452 (chore: update lockfile)
+>>>>>>> 8dbeae7 (chore: update lockfile)
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
+>>>>>>> 9bbad91 (chore: update lockfile)
     peerDependencies:
       vue: ^3.2.0
     dependencies:
